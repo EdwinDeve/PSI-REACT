@@ -1,5 +1,7 @@
 import React from 'react'
 
+import CajaFuncional from '../../Assets/Images/Incubadora_Funcional.png'
+
 function About() {
   return (
     <div className='container'>
@@ -13,14 +15,12 @@ function About() {
           Esta idea surge con el propósito de hacer un invernadero en el cual se plantarán semillas seleccionadas que presentan un crecimiento lento en este tipo de región ya que la planta tarda en romper el cascaron que lo rodea. La incubadora nos permitirá tener un constante cuidado para la rapida germinacion de las semillas y ser auto suficiente con la minima intervencion humana.
         </p>
       </div>
-      <div className='row fst-italic'>
-        <p>
-          aqui va la imagen
-        </p>
+      <div className='row'>
+      <img src={CajaFuncional}  alt='imagen de la incubadora' />
       </div>
       <div className='row fst-italic'>
         <p>
-          Prototipo del proyecto PSI
+          Primer prototipo del proyecto PSI
         </p>
       </div>
       </div>

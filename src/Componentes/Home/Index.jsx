@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import CajaFuncional from '../../Assets/Images/Incubadora_Funcional.png'
+import Logo from '../../Assets/Images/Escudo_PSI.png'
 
 
 function Index() {
@@ -16,7 +16,8 @@ function Index() {
         </p>
       </div>
       <div className=' row'>
-        <img src={CajaFuncional}  alt='imagen de la incubadora' />
+        
+        <img src={Logo}  alt='imagen de la incubadora' />
       </div>
       <div className='row fst-italic'>
         <p>
