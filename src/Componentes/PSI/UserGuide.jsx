@@ -1,8 +1,15 @@
 import React from 'react';
 
+import Arduino1 from '../../Assets/Images/GuiaDeUsuario/002.png'
+
+import Frontal from '../../Assets/Images/GuiaDeUsuario/Frontal.png'
+import Bomba from '../../Assets/Images/GuiaDeUsuario/Bomba de awa.png'
+import Riego from '../../Assets/Images/GuiaDeUsuario/Tierra y tuberias.png'
+import Calefaccion from '../../Assets/Images/GuiaDeUsuario/Iluminacion.png'
+
 function UserGuide() {
   return (
-    <div className="container shadow">
+    <div className="container">
       <br />
 
       <div className="container text-center">
@@ -11,7 +18,7 @@ function UserGuide() {
         </label>
       </div>
 
-      <div className="container">
+      <div className="container shadow p-3 rounded">
         <a data-bs-toggle="collapse" href="#Herramientas" role="button">
           <label style={{ fontSize: '20px', fontWeight: 'bold', color: 'black' }}>
             &raquo; Herramientas necesarias
@@ -30,7 +37,7 @@ function UserGuide() {
                 <img src="~/Assets/Images/GuiaDeUsuario/001.png" alt="Arduino_IDE" width="190" />
               </div>
               <div className="container text-center">
-                <img src="~/Assets/Images/GuiaDeUsuario/002.png" alt="Arduino_IDE" width="700" />
+                <img src={Arduino1} alt="Arduino_IDE" width="700" />
               </div>
             </div>
             <br />
@@ -45,7 +52,7 @@ function UserGuide() {
 
       <br />
 
-      <div className="container">
+      <div className="container shadow p-3 rounded">
         <a data-bs-toggle="collapse" href="#ArduinoIDE" role="button">
           <label style={{ fontSize: '20px', fontWeight: 'bold', color: 'black' }}>
             &raquo; Arduino IDE
@@ -160,7 +167,7 @@ function UserGuide() {
 
       <br />
 
-      <div className="container">
+      <div className="container shadow p-3 rounded">
         <a data-bs-toggle="collapse" href="#Incubadora" role="button">
           <label style={{ fontSize: '20px', fontWeight: 'bold', color: 'black' }}>
             &raquo; Incubadora
@@ -168,55 +175,67 @@ function UserGuide() {
         </a>
 
         <div className="collapse" id="Incubadora">
+
           <div className="container">
             <br />
-            <label>
+            <div className='container'>
+            <label className='fw-bold'>
               La incubadora consta de muchas partes
             </label>
+            </div>
             <br />
             <div className="container">
-              <div className="text-center">
+              <div >
                 <label style={{ fontSize: '20px', fontWeight: 'bold' }}>
                   Vista Frontal de la incubadora
                 </label>
                 <br />
-                <img src="~/Assets/Images/GuiaDeUsuario/Frontal.png" alt="Parte de la incubadora" width="800" />
+                <div className='row mx-auto'>
+                <img src={Frontal} alt="Parte de la incubadora" width="800" />
+                </div>
                 <br />
                 <label>Se muetsra la vista frontal de la incubadora, como se ve en la imagen el cuerpo de la incubadora consta de dos partes que se desacoplan, el cuerpo de la incubadora y la tapa</label>
 
               </div>
               <br />
-              <div className="text-center">
+              <div >
                 <label style={{ fontSize: '20px', fontWeight: 'bold' }}>
                   Bomba de agua
                 </label>
                 <br />
-                <img src="~/Assets/Images/GuiaDeUsuario/Bomba de awa.png" alt="Parte de la incubadora" width="800" />
+                <div className='row mx-auto'>
+                <img src={Bomba} alt="Parte de la incubadora" width="800" />
+                </div>
                 <br />
                 <label>La bomba de agua se activa siguiendo la logica que se mostro en la seccion de la explicacion del codigo</label>
               </div>
               <br />
-              <div className="text-center">
+              <div >
                 <label style={{ fontSize: '20px', fontWeight: 'bold' }}>
                   Sistema de riego y ventilacion
                 </label>
                 <br />
-                <img src="~/Assets/Images/GuiaDeUsuario/Tierra y tuberias.png" alt="Parte de la incubadora" width="800" />
+                <div className='row mx-auto'>
+                <img src={Riego} alt="Parte de la incubadora" width="800" />
+                </div>
                 <br />
                 <label>Se muestra como esta la distribucion de las tuberias de riego, y el acceso para la ventilacion, ambos se activan siguiendo la logica que se mostro en la seccion de la explicacion del codigo</label>
               </div>
               <br />
-              <div className="text-center">
+              <div >
                 <label style={{ fontSize: '20px', fontWeight: 'bold' }}>
                   Sistema de calefaccion
                 </label>
                 <br />
-                <img src="~/Assets/Images/GuiaDeUsuario/Iluminacion.png" alt="Parte de la incubadora" width="800" />
+                <div className='row mx-auto'>
+                <img src={Calefaccion} alt="Parte de la incubadora" width="800" />
+                </div>
                 <br />
                 <label>Como se puede observar el sistema de calefacicon funciona por medio de una bombilla la cual se activa siguiendo la logica que se mostro en la seccion de la explicacion del codigo</label>
               </div>
               <br />
             </div>
+
           </div>
         </div>
 
