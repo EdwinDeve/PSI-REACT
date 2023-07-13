@@ -16,7 +16,7 @@ function Index() {
         </p>
       </div>
       <div className=' row'>
-        <img src={CajaFuncional}  alt="image de la incubadora" />
+        <img src={CajaFuncional}  alt='imagen de la incubadora' />
       </div>
       <div className='row fst-italic'>
         <p>
