@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import CajaFuncional from '../../Assets/Images/Incubadora_Funcional.png'
+
 
 function Index() {
   return (
@@ -13,10 +15,8 @@ function Index() {
           La incubadora de semillas busca ser una de las soluciones al problema del desabasto de cosechas, disminuyendo el tiempo de necesario para germinacion de la semilla
         </p>
       </div>
-      <div className='row fst-italic'>
-        <p>
-          aqui va la imagen
-        </p>
+      <div className=' row'>
+        <img src={CajaFuncional}  alt="image de la incubadora" />
       </div>
       <div className='row fst-italic'>
         <p>
@@ -24,7 +24,7 @@ function Index() {
         </p>
       </div>
       <div className='col-sm-2 mx-auto'>
-        <Link className='btn btn-success rounded-pill shadow'>Acerca del proyecto</Link>
+        <Link className='btn btn-success rounded-pill shadow' to={'/contacto'}>Acerca del proyecto</Link>
       </div>
     </div>
   )
