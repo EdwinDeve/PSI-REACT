@@ -1,5 +1,4 @@
 import React from 'react'
-import LogoPSI from '../../Assets/Escudo_PSI.png'
 import { Link } from 'react-router-dom'
 
 
