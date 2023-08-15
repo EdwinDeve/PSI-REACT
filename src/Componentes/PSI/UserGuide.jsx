@@ -12,10 +12,10 @@ function UserGuide() {
     <div className="container">
       <br />
 
-      <div className="container text-center">
-        <label style={{ fontSize: '20px', fontWeight: 'bold' }}>
+      <div className="container fw-bold">
+        <h1>
           Guia de usuario
-        </label>
+        </h1>
       </div>
 
       <div className="container shadow p-3 rounded">
@@ -33,10 +33,10 @@ function UserGuide() {
                 Por el momento para controlar la incubadora es necesario contar con el IDE de aruino, aqui se modificaran los parametros para los diferentes tipos de plantas que se van a monitorear dentro esta.
               </label>
               <br />
-              <div className="container text-center">
+              {/* <div className="row text-center">
                 <img src="~/Assets/Images/GuiaDeUsuario/001.png" alt="Arduino_IDE" width="190" />
-              </div>
-              <div className="container text-center">
+              </div> */}
+              <div className="row text-center">
                 <img src={Arduino1} alt="Arduino_IDE" width="700" />
               </div>
             </div>
@@ -187,7 +187,7 @@ function UserGuide() {
             <div className="container">
               <div >
                 <label style={{ fontSize: '20px', fontWeight: 'bold' }}>
-                  Vista Frontal de la incubadora
+                  Vista general de la incubadora
                 </label>
                 <br />
                 <div className='row mx-auto'>

@@ -7,22 +7,26 @@ function About() {
     <div className='container'>
 
       <div className='shadow p-3'>
-      <div className='row'>
-        <h1>Portable Seed Incubator PSI</h1>
-      </div>
-      <div className='row'>
-        <p>
-          Esta idea surge con el propósito de hacer un invernadero en el cual se plantarán semillas seleccionadas que presentan un crecimiento lento en este tipo de región ya que la planta tarda en romper el cascaron que lo rodea. La incubadora nos permitirá tener un constante cuidado para la rapida germinacion de las semillas y ser auto suficiente con la minima intervencion humana.
-        </p>
-      </div>
-      <div className='row'>
-      <img src={CajaFuncional}  alt='imagen de la incubadora' />
-      </div>
-      <div className='row fst-italic'>
-        <p>
-          Primer prototipo del proyecto PSI
-        </p>
-      </div>
+        <div className='row fw-bold'>
+          <h2>Portable Seed Incubator PSI</h2>
+        </div>
+        <div className='row'>
+          <p>
+
+            Este proyecto surge con el proposito de hacer un pequeño invernadero portatil en el cual se plantaran semillas que presentan dificultades para crecer en este tipo de region. <br />
+            Inicialmente concebido para adaptarse a diversas variedades de semillas, el proyecto se decidio enfocar en el cultivo de café, reconociendo su importancia global y el potencial de crecimiento en este sector.
+
+            {/* Esta idea surge con el propósito de hacer un invernadero en el cual se plantarán semillas que presentan un crecimiento lento en este tipo de región ya que la planta tarda en romper el cascaron que lo rodea. La incubadora nos permitirá tener un constante cuidado para la rapida germinacion de las semillas y ser auto suficiente con la minima intervencion humana. */}
+          </p>
+        </div>
+        <div className='row'>
+          <img src={CajaFuncional} alt='imagen de la incubadora' />
+        </div>
+        <div className='row fst-italic'>
+          <p>
+            Primer prototipo del proyecto PSI
+          </p>
+        </div>
       </div>
 
       <br />
@@ -32,10 +36,10 @@ function About() {
 
       <div className="shadow">
         <br />
-        <div className="container text-center">
-          <label >
+        <div className="container ">
+          <h2 >
             Mision, Vision y Valores
-          </label>
+          </h2>
         </div>
         <div className="container ">
 
@@ -50,7 +54,7 @@ function About() {
               <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#AcordionPSI">
                 <div class="accordion-body">
                   <p>
-                    Ayuda a las personas a ahorrar tiempo, dinero y esfuerzo en la produccion de brotes de semillas y a la terraformacion de areas deforestadas.
+                    Ayuda a las personas a ahorrar tiempo, dinero y esfuerzo en la produccion de brotes de semillas y a la regeneracion de areas deforestadas.
                   </p>
                 </div>
               </div>

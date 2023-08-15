@@ -6,8 +6,8 @@ import Logo from '../../Assets/Images/Escudo_PSI.png'
 
 function Index() {
   return (
-    <div className='container shadow p-3 rounded text-center'>
-      <div className='row'>
+    <div className='container shadow p-3 rounded '>
+      <div className='row fw-bold'>
         <h1>Portable Seed Incubator PSI</h1>
       </div>
       <div className='row'>
@@ -19,12 +19,12 @@ function Index() {
         
         <img src={Logo}  alt='imagen de la incubadora' />
       </div>
-      <div className='row fst-italic'>
+      <div className='row fst-italic text-center'>
         <p>
           ¿Quieres saber mas acerca de PSI?
         </p>
       </div>
-      <div className='col-sm-2 mx-auto'>
+      <div className='text-center'>
         <Link className='btn btn-success rounded-pill shadow' to={'/contacto'}>Acerca del proyecto</Link>
       </div>
     </div>
