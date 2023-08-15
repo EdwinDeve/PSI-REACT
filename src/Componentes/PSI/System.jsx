@@ -19,12 +19,12 @@ function System() {
         </div>
         <br />
         <div className='row'>
-          <p>El Proyecto PSI (Portable Seed Incubator) es una innovadora creación diseñada con el propósito de proporcionar una solución portátil para la incubación de semillas. Inicialmente concebido para adaptarse a diversas variedades de semillas, los creadores decidieron enfocar su enfoque en el cultivo de café, reconociendo su importancia global y el potencial de crecimiento en este sector.
+          <p>El Proyecto PSI (Portable Seed Incubator) es una innovadora creación diseñada con el propósito de proporcionar una solución portátil para la incubación de semillas. Inicialmente concebido para adaptarse a diversas variedades de semillas.
 
             <br />
             <br />
 
-            La incubadora portátil PSI ofrece una plataforma versátil y eficiente para el cultivo de semillas de café en diversas ubicaciones y condiciones ambientales.Equipada con tecnología basada en Arduino, la incubadora PSI proporciona un entorno óptimo para el desarrollo saludable de las semillas de café. Los parámetros de temperatura, humedad y luz se controlan de manera precisa y se ajustan según las necesidades específicas de las semillas, garantizando condiciones ideales para su germinación y crecimiento inicial.
+            La incubadora portátil PSI ofrece una plataforma versátil y eficiente para el cultivo de semillas en diversas ubicaciones y condiciones ambientales.Equipada con tecnología basada en Arduino, la incubadora PSI proporciona un entorno óptimo para el desarrollo saludable de las semillas. Los parámetros de temperatura, humedad y luz se controlan de manera precisa y se ajustan según las necesidades específicas de las semillas, garantizando condiciones ideales para su germinación y crecimiento inicial.
 
             <br />
             <br />
@@ -34,7 +34,7 @@ function System() {
             <br />
             <br />
 
-            Con el enfoque específico en el cultivo de café, el Proyecto PSI busca mejorar la calidad y la productividad del café a nivel local y global. Al proporcionar a los agricultores una herramienta accesible y confiable, se fomenta la diversificación de las fuentes de ingresos y se promueve la autosuficiencia en la producción de café.
+           
 
           </p>
           <br />
