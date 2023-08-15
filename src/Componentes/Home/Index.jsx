@@ -25,7 +25,7 @@ function Index() {
         </p>
       </div>
       <div className='text-center'>
-        <Link className='btn btn-success rounded-pill shadow' to={'/contacto'}>Acerca del proyecto</Link>
+        <Link className='btn btn-success rounded-pill shadow' to={'/PSI'}>Acerca del proyecto</Link>
       </div>
     </div>
   )
